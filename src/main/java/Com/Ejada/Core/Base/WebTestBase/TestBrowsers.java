@@ -1,20 +1,17 @@
 package Com.Ejada.Core.Base.WebTestBase;
 
 import Com.Ejada.Core.Helpers.ActionHelper;
-import Com.Ejada.Core.Report.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-public class ChromeBrowser {
+public class TestBrowsers {
     protected  WebDriver driver;
     public ActionHelper action;
     @Parameters("browser")

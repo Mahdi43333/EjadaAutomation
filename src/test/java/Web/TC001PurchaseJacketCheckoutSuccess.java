@@ -3,9 +3,7 @@ package Web;
 import Com.Ejada.Core.Helpers.ActionHelper;
 import Com.Ejada.Core.Helpers.DataHelper;
 import Com.Ejada.Pages.Web.*;
-import Com.Ejada.Core.Base.WebTestBase.ChromeBrowser;
-import Com.Ejada.Core.Helpers.ActionHelper;
-import Com.Ejada.Core.Helpers.DataHelper;
+import Com.Ejada.Core.Base.WebTestBase.TestBrowsers;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,7 +15,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 @Listeners({AllureTestNg.class})
-public class TC001PurchaseJacketCheckoutSuccess extends ChromeBrowser {
+public class TC001PurchaseJacketCheckoutSuccess extends TestBrowsers {
     ActionHelper action = new ActionHelper();
     SoftAssert softAssert = new SoftAssert();
 
