@@ -1,0 +1,4 @@
+BookAPI\TC002PlaceOrderForNewBook.class
+Web\TC001PurchaseJacketCheckoutSuccess.class
+BookAPI\TC001GetListOfBooks.class
+BookAPI\TC003CancelOrder.class

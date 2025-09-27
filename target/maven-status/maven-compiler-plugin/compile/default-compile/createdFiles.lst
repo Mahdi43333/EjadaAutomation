@@ -1,0 +1,16 @@
+Com\Ejada\Core\Base\WebTestBase\ChromeBrowser.class
+Com\Ejada\Core\Helpers\ActionHelper.class
+Com\Ejada\Pages\Web\CheckoutCompletePage.class
+Com\Ejada\Pages\Web\ProductsDetailsPage.class
+Com\Ejada\Core\Helpers\DataHelper.class
+Com\Ejada\Pages\Web\CheckoutOverviewPage.class
+Com\Ejada\Pages\Web\LoginPage.class
+Com\Ejada\Core\Base\WebTestBase\EdgeBrowser.class
+Com\Ejada\Core\Report\BaseTest.class
+Com\Ejada\Core\Base\ApiTestBase\Get.class
+Com\Ejada\Core\Base\ApiTestBase\Post.class
+Com\Ejada\Core\Base\WebTestBase\FireFoxBrowser.class
+Com\Ejada\Pages\Web\ProductsPage.class
+Com\Ejada\Core\Helpers\VerifyHelper.class
+Com\Ejada\Pages\Web\CartPage.class
+Com\Ejada\Pages\Web\CheckoutInformationPage.class

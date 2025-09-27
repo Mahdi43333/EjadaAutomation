@@ -1,0 +1,9 @@
+{
+  "baseUrl": "",
+  "AUT": "",
+  "headless": false,
+  "retries": 0,
+  "defaultWaitTime": 60,
+  "sendEmail": false,
+  "recipients": ["test@test.com"]
+}

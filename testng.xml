@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Ejada Suite" parallel="true">
+    <test name="Automation Tester Assignment - Ejada Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Web.TC001PurchaseJacketCheckoutSuccess"/>
+        </classes>
+    </test>
+    <test name="Automation Tester Assignment - Ejada Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="Web.TC001PurchaseJacketCheckoutSuccess"/>
+        </classes>
+    </test>
+    <test name="Automation Tester Assignment - Ejada API Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="BookAPI.TC001GetListOfBooks"/>
+            <class name="BookAPI.TC002PlaceOrderForNewBook"/>
+            <class name="BookAPI.TC003CancelOrder"/>
+        </classes>
+    </test>
+</suite>
